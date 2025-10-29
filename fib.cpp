@@ -10,7 +10,7 @@ int recFib(int a) {
 }
 
 
-// O(n) 
+// O(n) Bottom up method
 int DPFib(int a){
     vector<int>Fib(a + 1);
     Fib[0] = 0;
